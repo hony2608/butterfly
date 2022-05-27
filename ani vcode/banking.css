@@ -1,0 +1,297 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.all-content{
+    background-color: blue;
+}
+body{
+    background-color: rgba(10, 137, 221, 0.884);
+}
+.container{
+    width: 100%;
+    height:5%;
+    background-color: rgb(49, 49, 105);
+}
+.menus ul{
+    display: inline-flex;
+}
+.menus ul li{
+    font-family: sans-serif;
+    font-size:15px;
+    color:whitesmoke;
+    list-style: none;
+    margin-left: 150px;
+    text-align: center;
+    padding-top:10px;
+
+}
+.img-input{
+    width:100px;
+    height:50px;
+    display: flex;
+background-color: white;
+width: 100%;
+height: 65px;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 0px;
+    margin-left:70px;
+    float: left;
+}
+.picture{
+    width: 100 px;
+    height: 50px;
+}
+ .heading{
+    color: rgba(0, 4, 255, 0.87);
+    font-size: 10PX;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 100px;
+    height: 20px;
+    white-space: nowrap;
+}
+.search{
+    border: 2px solid rgba(12, 27, 245, 0.938);
+    border-radius: 40px;
+    font-size: 25px;
+    width: 250px;
+    height: 35px;
+    margin-top:5px;
+    margin-left: 150px;
+    padding-left: 10px;
+    background-image: url("https://bit.ly/3LAos61");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: left;  
+}
+.home{
+    width:50%;
+    height:50px;
+    display: flex;
+    margin-right: 200px;
+    column-gap: 50px;
+    margin-top: 0px;
+padding: 10px;
+}
+.house{
+    width: 30px;
+    height: 30px;
+    
+}
+.house-loan{
+    float: right;
+    border: 2px solid rgba(11, 32, 224, 0.788);
+    color:rgb(255, 0, 13);
+    margin-left: 50px;
+    margin-top: 0px;
+    align-items: start;
+    padding-right: 10px;
+}
+.offer{
+    width: 100%;
+    height:5%;
+}
+.skemes-menu ul{
+    display: inline-flex;
+}
+.skemes-menu ul li{
+    font-family: sans-serif;
+    font-size:15px;
+    color:rgb(6, 44, 36);
+    list-style: none;
+    margin-left: 100px;
+    text-align: center;
+    padding-top:10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.products{
+    float: left;
+    width:70%;
+    height:80%;
+    display:grid;
+    grid-template-columns:40px 40px 40px 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url("https://bit.ly/3LMTesh");
+    background-repeat: no-repeat;;
+    background-size: cover;
+    margin:10px;
+    margin-left: 0px;
+}
+.personal,.secure,.forex,.easyemi,.savings,.service,.car,.credit{
+    margin-top: 30px;
+    border:1px solid rgb(243, 6, 6);
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+    background-color: rgb(245, 235, 235);
+    flex-wrap: wrap;
+}
+h5:hover{
+    color:blue;
+}
+img{
+    border-radius: 50%;
+    width:50px;
+    height: 50px; 
+    margin-left: 30px;
+    margin-top: 5px; 
+    
+}
+h5{
+    font-family: serif;
+    font-size: 15px;
+    color: rgb(20, 17, 17);
+    white-space: wrap;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.easy{
+    font-family:Arial ;
+    font-size: 15px;
+    color: blue;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+span{
+    font-family:Arial ;
+    font-size: 15px;
+    color: red;
+    margin-left: 25px;
+    margin-top: 5px;  
+}
+/* h2{
+    text-align: center;
+    color: white;
+    margin-left: 200px;
+} */
+.sub-links{
+    background-color: whitesmoke;
+    color:brown;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    height:40px;
+    width:150px;
+    /* float:right; */
+    margin-right: 300px;
+    margin-top:0px;
+    text-align: start;
+}
+
+.navi{
+    margin-top: 10px;
+    background-color: white;
+border: 3px solid rgb(55, 0, 255);
+}
+#payments{
+margin: 10px;
+float: right;
+margin-right: 150px;
+border: 2px solid blue;
+width:200px;
+height: 35px;
+border-radius: 5px;
+color: red;
+}
+
+.login{
+    margin-left: 45px;
+    float:inline-start;
+    width:70px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 0px;
+
+}
+.forget-pw,.register{
+    font-family: sans-serif;
+    font-size: 15px;
+    color:darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.tourist{
+    float:right;
+    width:380px;
+    margin-right: 10px;
+    height:418px;
+    margin-top: 0px;
+    background-image:url("https://bit.ly/38Vyy3T");
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.8; */
+    background-repeat: no-repeat;
+    border: 2px solid rgb(57, 12, 219);
+    margin-left: 0px;
+    margin-top: 0;
+    padding: 0px;
+}
+.title{
+    color:rgb(250, 6, 6);
+    font-weight: bolder;
+}
+.para{
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.three-pic{
+    width: 30px;
+    height:30px;
+    justify-content: space-around;
+    
+}
+.three-circle{
+    width: 30px;
+    height: 30px;
+}
+.parag{
+    color:rgba(250, 2, 2, 0.911);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+table{
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: left;
+    padding-left: 0px;
+}
+.apply{
+    width: 70px;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    outline-style: auto;
+    outline-color: white;
+}
+.apply:hover{
+    color: yellow;
+}
+.parah{
+    font-family:sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-bottom: 0px;
+}
